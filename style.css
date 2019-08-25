@@ -1,0 +1,110 @@
+*,
+*:before,
+*:after {
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	color: #333;
+	/* background-image: url(design/desktop-design.jpg); */
+	background-position: top;
+	background-repeat: no-repeat;
+	max-width: 1440px;
+	margin: 0 auto;
+}
+header {
+	background-color: rgba(137, 43, 226, 0.116);
+	padding-top: 4em;
+	padding-left: 5em;
+	height: 200px;
+}
+h1 {
+	color: #030032;
+}
+a {
+	color: #36a48b;
+}
+ul {
+	list-style: none;
+}
+img {
+	width: 100%;
+	display: block;
+}
+.btn {
+	background-color: #2f65f9;
+	color: white;
+}
+section {
+	margin: 0 auto;
+	outline: 1px dotted saddlebrown;
+}
+.section-title {
+}
+.section-body {
+}
+.l-section {
+	display: flex;
+	flex-flow: row wrap;
+}
+.l-section__item {
+	max-width: 50%;
+}
+.section-one {
+	height: 640px;
+	outline: 1px solid fuchsia;
+	background-color: #07043b1e;
+}
+.section-one-left {
+	outline: 1px solid tomato;
+}
+.section-one-right {
+	outline: 1px solid greenyellow;
+}
+.section-two {
+	height: 785px;
+	/* background-color: #f9f8fe; */
+	color: black;
+	background-color: #2f65f948;
+	outline: 1px solid goldenrod;
+}
+.section-three {
+	height: 323px;
+	background-color: #575989;
+}
+
+footer {
+	background-color: #07043b;
+	color: white;
+	height: 391px;
+}
+/* getting my hands wet with BEM methodoligy */
+
+.l-container-nav {
+	display: flex;
+	justify-content: space-between;
+}
+.c-logo {
+	margin-right: 2em;
+}
+.l-nav-list {
+	display: flex;
+}
+.l-nav-list__item {
+	margin-right: 4.2em;
+	padding: 1em 0;
+}
+.l-container-main {
+	/* max-width: 1440px; */
+}
+.c-card {
+	max-width: 200px;
+	border: 1px solid #000;
+	border-radius: 6px;
+}
