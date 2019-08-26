@@ -155,7 +155,7 @@ section {
 .section-two {
 	height: 785px;
 	color: black;
-	background-color: #2f65f91c;
+	/* background-color: #2f65f91c; */
 }
 .section-three {
 	height: 323px;
@@ -190,4 +190,28 @@ footer {
 	max-width: 200px;
 	border: 1px solid #000;
 	border-radius: 6px;
+}
+
+.section-two::after {
+	background: url(images/bg-curve-desktop.svg);
+	border: 1px solid maroon;
+}
+
+.section-two::after {
+	content: "";
+	opacity: 100;
+	/* top: 0; */
+	left: 0;
+	/* bottom: 0; */
+	right: 0;
+	position: absolute;
+	/* background-attachment: fixed; */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 1440px;
+	/* -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover; */
+	min-height: 100%;
+	z-index: -999;
 }
