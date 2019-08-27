@@ -39,7 +39,9 @@ body {
 	background-image: url(design/desktop-design.jpg);
 	background-position: top;
 	background-repeat: no-repeat;
+	opacity: 0.5;
 }
+
 header {
 	background-color: rgba(137, 43, 226, 0.116);
 	padding-top: 4em;
@@ -301,13 +303,26 @@ footer {
 .footer-nav {
 	display: flex;
 	flex-flow: row;
+	padding: 0;
+	margin: 0 auto;
+	max-width: 80%;
+	border: 2px solid tomato;
+	background-color: rgba(0, 255, 255, 0.26);
 }
 .footer-nav-item {
 	outline: 1px solid orange;
+	margin: 5px;
 }
 .footer-link {
 	color: white;
+	flex: 5;
 }
 .phone-item {
 	width: 20px;
+	display: block;
+}
+.social {
+	filter: brightness(0) invert(1);
+	width: 30px;
+	flex: 1;
 }
