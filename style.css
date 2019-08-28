@@ -67,13 +67,6 @@ img {
 	filter: grayscale(100);
 }
 
-footer {
-	/* background-color: #07043b; */
-	color: white;
-	height: 391px;
-	fill: currentColor;
-}
-
 .icon-arrow {
 	width: 20px;
 	display: inline-block;
@@ -295,10 +288,25 @@ footer {
 	color: rgba(0, 0, 0, 0.5);
 	background-color: rgba(0, 255, 255, 0.199);
 }
+
+footer {
+	/* background-color: #07043b; */
+	display: grid;
+	grid-template-columns: repeat(4, 25%);
+	grid-template-rows: 35% 60%;
+	grid-auto-flow: column;
+	color: white;
+	height: 283px;
+	fill: currentColor;
+	outline: 1px solid rebeccapurple;
+	grid-gap: 10px;
+}
 .footer-logo {
 	filter: brightness(0) invert(1);
 	width: 12%;
 	margin: 6.6em 0px 1em 5em;
+	grid-column: 1 / 2;
+	grid-row: 1 / 2;
 }
 .footer-nav {
 	display: flex;
@@ -312,6 +320,7 @@ footer {
 .footer-nav-item {
 	outline: 1px solid orange;
 	margin: 5px;
+	flex: 8;
 }
 .footer-link {
 	color: white;
@@ -325,4 +334,6 @@ footer {
 	filter: brightness(0) invert(1);
 	width: 30px;
 	flex: 1;
+	grid-row: 2;
+	grid-column: 3/4;
 }
