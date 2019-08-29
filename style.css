@@ -35,15 +35,15 @@ desktop: 1440
 body {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 100%;
-	color: #333;
+	/* color: #333; */
 	background-image: url(design/desktop-design.jpg);
 	background-position: top;
 	background-repeat: no-repeat;
-	opacity: 0.5;
+	opacity: 0.2;
 }
 
 header {
-	background-color: rgba(137, 43, 226, 0.116);
+	/* background-color: rgba(137, 43, 226, 0.116); */
 	padding-top: 4em;
 	padding-left: 5em;
 	height: 200px;
@@ -105,7 +105,7 @@ img {
 }
 .btn {
 	height: 3em;
-	/* background-color: #2f65f9; */
+	background-color: #2f65f9;
 	color: white;
 	border: none;
 	border-radius: 3px;
@@ -113,7 +113,7 @@ img {
 	font-weight: 600;
 	width: 200px;
 	height: 45px;
-	background-color: rgba(0, 255, 255, 0.192);
+	/* background-color: rgba(0, 255, 255, 0.192); */
 }
 .c-shadow {
 	-webkit-box-shadow: 6px 6px 10px -4px rgba(0, 0, 0, 0.25);
@@ -151,17 +151,19 @@ img {
 	flex: 1;
 }
 .l-section-left__item {
-	padding-top: 11em;
+	padding-top: 4.215em;
 	padding-left: 4.688em;
 	/* width: 1300px; */
 }
 .l-section-right__item {
 }
-
+.curve {
+	background-color: rgba(18, 51, 51, 0.219);
+}
 .section-one {
-	height: 640px;
+	/* height: 640px; */
 	outline: 1px solid fuchsia;
-	/* background-color: #07043b1e; */
+	background-color: #12421523;
 }
 .section-one-left {
 	outline: 1px solid tomato;
@@ -171,17 +173,19 @@ img {
 }
 .c-section-image {
 	width: 89%;
+	margin-bottom: 10.2rem;
 }
 .c-section-image__two {
-	margin-top: 12.5em;
+	margin-top: 5.5em;
 	margin-left: 3.7em;
 	width: 80%;
 }
+
 .section-two {
-	/* height: 785px; */
 	color: black;
-	/* background-color: #2f65f91c; */
+	background-color: #f9f8fe;
 }
+
 .section-three {
 	height: 323px;
 	background-color: #5759891e;
@@ -231,7 +235,7 @@ img {
 	display: grid;
 	grid-template-columns: 40px 1fr;
 	grid-template-rows: 30px;
-	outline: 1px dotted fuchsia;
+	/* outline: 1px dotted fuchsia; */
 }
 .c-testimonial-avatar {
 	padding-top: 1em;
@@ -250,16 +254,13 @@ img {
 	align-self: start;
 	font-size: 9px;
 }
-.section-two {
-	/* background: url(images/bg-curve-desktop.png); */
-	border: 1px solid maroon;
-}
 
 .section-three > * {
-	outline: 1px solid rosybrown;
+	/* outline: 1px solid rosybrown; */
 	padding-top: 6em;
 	padding-left: 5em;
-	color: rgb(107, 11, 11);
+	color: rgb(255, 255, 255);
+	background-color: #575989;
 }
 
 .section-three-title {
@@ -271,7 +272,6 @@ img {
 	max-width: 80%;
 	font-size: 1.1em;
 	line-height: 1.3;
-	opacity: .3;
 }
 .section-three-form {
 	flex: 1 1 82%;
@@ -286,14 +286,14 @@ img {
 	padding: 1em;
 	font-size: .8em;
 	color: rgba(0, 0, 0, 0.5);
-	background-color: rgba(0, 255, 255, 0.199);
+	/* background-color: rgba(0, 255, 255, 0.199); */
 }
 
 footer {
 	background-color: #07043b;
 	color: white;
 	padding-bottom: 3rem;
-	margin-bottom: 40em;
+	/* margin-bottom: 40em; */
 }
 .footer-logo {
 	filter: brightness(0) invert(1);
