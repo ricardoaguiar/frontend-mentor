@@ -35,10 +35,9 @@ desktop: 1440
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 100%;
-  background-image: url(design/desktop-design.jpg);
+  /* background-image: url(design/desktop-design.jpg); */
   background-position: top;
   background-repeat: no-repeat;
-  opacity: 0.4;
 }
 
 header {
@@ -145,7 +144,6 @@ img {
 }
 .l-section__item {
   /* width: 50%; */
-  outline: 1px dotted #030032;
   flex: 1;
 }
 .l-section-left__item {
@@ -156,15 +154,11 @@ img {
 .l-section-right__item {
 }
 .curve {
-  background-color: rgba(18, 51, 51, 0.219);
+  /* background-color: rgba(18, 51, 51, 0.219); */
 }
 .section-one {
-  /* height: 640px; */
-  outline: 1px solid fuchsia;
-  background-color: #12421523;
 }
 .section-one-left {
-  outline: 1px solid tomato;
 }
 .section-one-right {
   border: 2px dotted red;
@@ -233,7 +227,6 @@ img {
   display: grid;
   grid-template-columns: 40px 1fr;
   grid-template-rows: 30px;
-  /* outline: 1px dotted fuchsia; */
 }
 .c-testimonial-avatar {
   padding-top: 1em;
@@ -254,7 +247,6 @@ img {
 }
 
 .section-three > * {
-  /* outline: 1px solid rosybrown; */
   padding-top: 6em;
   padding-left: 5em;
   color: rgb(255, 255, 255);
