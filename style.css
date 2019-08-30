@@ -35,10 +35,10 @@ desktop: 1440
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 100%;
-  background-image: url(design/desktop-design.jpg);
+  /* background-image: url(design/desktop-design.jpg); */
   background-position: top;
   background-repeat: no-repeat;
-  opacity: 0.3;
+  /* opacity: 0.3; */
 }
 
 header {
@@ -95,7 +95,7 @@ img {
   margin-right: 16px;
   height: 45px;
   width: 320px;
-  border: 1px solid rgba(27, 27, 27, 0.842);
+  border: 1px solid hsl(0, 0%, 75%);
   box-shadow: none;
   border-collapse: collapse;
   border-radius: 0.3em;
@@ -176,7 +176,7 @@ img {
 }
 .section-three {
   height: 323px;
-  background-color: #5759891e;
+  background-color: hsl(238, 22%, 44%);
 }
 
 .container-nav {
@@ -247,6 +247,7 @@ img {
 }
 
 .section-three-title {
+  color: white;
   font-size: 2em;
   line-height: 1.6;
 }
@@ -268,7 +269,7 @@ img {
   border: none;
   padding: 1em;
   font-size: 0.8em;
-  color: rgba(0, 0, 0, 0.5);
+  color: hsl(0, 0%, 75%);
 }
 
 footer {
