@@ -35,10 +35,10 @@ desktop: 1440
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 100%;
-  /* background-image: url(design/desktop-design.jpg); */
+  background-image: url(design/desktop-design.jpg);
   background-position: top;
   background-repeat: no-repeat;
-  /* opacity: .3; */
+  opacity: 0.3;
 }
 
 header {
@@ -46,11 +46,13 @@ header {
   padding-left: 5em;
   padding-bottom: 5rem;
 }
-h1 {
-  color: #030032;
+h1,
+h2 {
+  color: hsl(243, 87%, 12%);
   font-family: "Raleway", sans-serif;
   font-size: 2.5em;
 }
+
 a {
   color: #36a48b;
   text-decoration: none;
@@ -118,7 +120,9 @@ img {
 
 .section-two-title {
   line-height: 1;
-  margin-bottom: 1.1em;
+  margin-bottom: 1em;
+  font-size: 2.5rem;
+  letter-spacing: 0.01rem;
 }
 .section-two-body {
   max-width: 80%;
@@ -146,22 +150,10 @@ img {
   /* outline: 1px solid tomato */
 }
 .l-section-left__item {
-  padding-top: 4.215em;
-  padding-left: 4.688em;
-  /* width: 1300px; */
+  padding-top: 4.5em;
+  padding-left: 4.9em;
 }
-.l-section-right__item {
-}
-.curve {
-  /* background-color: rgba(18, 51, 51, 0.219); */
-}
-.section-one {
-}
-.section-one-left {
-}
-.section-one-right {
-  /* border: 2px dotted red; */
-}
+
 .c-section-image {
   width: 89%;
   margin-bottom: 10.2rem;
@@ -178,7 +170,6 @@ img {
   background-position: top;
   background-repeat: no-repeat;
   padding-top: 7em;
-
 }
 .section-two-body {
   background-color: #f9f8fe;
@@ -232,7 +223,7 @@ img {
   grid-template-rows: 30px;
 }
 .c-testimonial-avatar {
-  margin-top: .8em;
+  margin-top: 0.8em;
   width: 32px;
   border-radius: 100%;
   display: inline-block;
@@ -252,7 +243,7 @@ img {
   padding-top: 6em;
   padding-left: 5em;
   color: rgb(255, 255, 255);
-  background-color: #575989;
+  background-color: hsl(238, 22%, 44%);
 }
 
 .section-three-title {
@@ -281,7 +272,7 @@ img {
 }
 
 footer {
-  background-color: #07043b;
+  background-color: hsl(243, 87%, 12%);
   color: white;
   padding-bottom: 3rem;
   padding-top: 1px;
@@ -342,7 +333,7 @@ footer {
 .footer-icon {
   width: 20px;
   display: inline-block;
-  margin-right: .6em;
+  margin-right: 0.6em;
 }
 .social {
   filter: brightness(0) invert(1);
@@ -350,4 +341,3 @@ footer {
   display: inline-block;
   margin-left: 0.25rem;
 }
-
