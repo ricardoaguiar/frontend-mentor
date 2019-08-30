@@ -38,6 +38,7 @@ body {
   /* background-image: url(design/desktop-design.jpg); */
   background-position: top;
   background-repeat: no-repeat;
+  /* opacity: .3; */
 }
 
 header {
@@ -49,7 +50,6 @@ h1 {
   color: #030032;
   font-family: "Raleway", sans-serif;
   font-size: 2.5em;
-  /* max-width: 15em; */
 }
 a {
   color: #36a48b;
@@ -61,7 +61,6 @@ ul {
 img {
   width: 100%;
   display: block;
-  /* filter: grayscale(100); */
 }
 
 .icon-arrow {
@@ -110,7 +109,6 @@ img {
   font-weight: 600;
   width: 200px;
   height: 45px;
-  /* background-color: rgba(0, 255, 255, 0.192); */
 }
 .c-shadow {
   -webkit-box-shadow: 6px 6px 10px -4px rgba(0, 0, 0, 0.25);
@@ -145,7 +143,7 @@ img {
 .l-section__item {
   /* width: 50%; */
   flex: 1;
-  outline: 1px solid tomato
+  /* outline: 1px solid tomato */
 }
 .l-section-left__item {
   padding-top: 4.215em;
@@ -162,7 +160,7 @@ img {
 .section-one-left {
 }
 .section-one-right {
-  border: 2px dotted red;
+  /* border: 2px dotted red; */
 }
 .c-section-image {
   width: 89%;
@@ -179,11 +177,12 @@ img {
   background-image: url(images/bg-curve-desktop.png);
   background-position: top;
   background-repeat: no-repeat;
-  /* background-color: #f9f8fe; */
-  outline: 1px solid orangered;
-  padding-top: 3rem
-}
+  padding-top: 7em;
 
+}
+.section-two-body {
+  background-color: #f9f8fe;
+}
 .section-three {
   height: 323px;
   background-color: #5759891e;
@@ -343,6 +342,7 @@ footer {
 .footer-icon {
   width: 20px;
   display: inline-block;
+  margin-right: .6em;
 }
 .social {
   filter: brightness(0) invert(1);
