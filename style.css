@@ -145,6 +145,7 @@ img {
 .l-section__item {
   /* width: 50%; */
   flex: 1;
+  outline: 1px solid tomato
 }
 .l-section-left__item {
   padding-top: 4.215em;
@@ -175,7 +176,12 @@ img {
 
 .section-two {
   color: black;
-  background-color: #f9f8fe;
+  background-image: url(images/bg-curve-desktop.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  /* background-color: #f9f8fe; */
+  outline: 1px solid orangered;
+  padding-top: 3rem
 }
 
 .section-three {
