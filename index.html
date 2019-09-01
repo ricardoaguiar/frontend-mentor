@@ -8,7 +8,7 @@
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="images/favicon-32x32.png"
+      href="https://webhus.io/_fylo//favicon-32x32.png"
     />
     <link rel="stylesheet" href="style.css" />
     <title>Frontend Mentor | Fylo landing page with two column layout</title>
@@ -17,9 +17,12 @@
     <div class="container-main">
       <header>
         <div class="container-nav">
-          <object data="images/logo.svg" type="image/svg+xml"></object>
-          <div class="c-logo">
-            <!-- <img src="https://webhus.io/w3challenge/logo.svg" alt="logo" /> -->
+          <div class="header-logo">
+            <a href="#">
+              <figure class="header-logo-svg">
+                <img src="https://webhus.io/_fylo/logo.svg" alt="logo" />
+              </figure>
+            </a>
           </div>
           <nav>
             <ul class="nav-list">
@@ -30,88 +33,105 @@
           </nav>
         </div>
       </header>
-      <section class="l-section">
-        <div class="l-section__item section-left-item">
-          <h1 class="section-one-title">
-            All your files in one secure location, accessible anywhere.
-          </h1>
-          <p class="section-one-body">
-            Fylo stores your most important files in one secure location. Access
-            them wherever you need, share and collaborate with friends, family,
-            and co-workers.
-          </p>
-          <div class="section-one-form">
-            <input
-              type="email"
-              name="email"
-              id="get-started"
-              class="section-one-input"
-              value="Enter your email..."
-            />
-            <button class="btn section-one-btn">Get Started</button>
-          </div>
-        </div>
-<div class="l-section__item section-right-item"></div>
-        <object data="images/illustration-1.svg" type="image/svg+xml"></object>
 
-        
-          <!-- <img
-            src="https://webhus.io/w3challenge/illustration-1.svg"
-            alt="illustration-1"
-            class="c-section-one-image"
-          /> -->
-        </div>
-      </section>
-      <section class="l-section section-two">
-        <div class="l-section__item section-two_left section-two-bg-color">
-          <h2 class="section-two-title">Stay productive, wherever you are</h2>
-          <p class="section-two-body">
-            Never let location be an issue when accessing your files. Fylo has
-            you covered for all of your file storage needs.
-          </p>
-          <p class="section-two-body section-two-body__padding">
-            Securely share files and folders with friends, family and colleagues
-            for live collaboration. No email attachments required!
-          </p>
-          <button class="section-two-button">
-            <a href="#" class="section-two-link"> See how Fylo works</a
-            ><img
-              src="https://webhus.io/w3challenge/icon-arrow.svg"
-              alt="arrow"
-              class="icon-arrow"
-            />
-          </button>
-          <div class="c-testimonial">
-            <img
-              class="c-testimonial-quote"
-              src="https://webhus.io/w3challenge/icon-quotes.svg"
-              alt="quote"
-            />
-            <p>
-              Fylo has improved our team productivity by an order of magnitude.
-              Since making the switch our team has become a well-oiled
-              collaboration machine.
+      <section class="section-container">
+        <ul class="section_one">
+          <li class="section_one_item_1">
+            <h1 class="section-one-title">
+              All your files in one secure location, accessible anywhere.
+            </h1>
+            <p class="section-one-body">
+              Fylo stores your most important files in one secure location.
+              Access them wherever you need, share and collaborate with friends,
+              family, and co-workers.
             </p>
-            <div class="c-testimonial-card">
-              <img
-                src="https://webhus.io/w3challenge/avatar-testimonial.jpg"
-                class="c-testimonial-avatar"
-                alt="Kyle Burton"
+            <div class="section-one-form">
+              <input
+                type="email"
+                name="email"
+                id="get-started"
+                class="section-one-input"
+                value="Enter your email..."
               />
-              <p class="c-testimonial-card-name">Kyle Burton</p>
-              <p class="c-testimonial-card-title">Founder & CEO, Huddle</p>
+              <button class="btn section-one-btn">Get Started</button>
             </div>
-          </div>
+          </li>
+        </ul>
+
+        <!-- svg on background-->
+        <div class="svg-container section_one_item_2">
+          <figure class="figure-svg-container section-one-svg"></figure>
         </div>
-        <div class="l-section__item section-two-bg-color">
-          <img
-            class="c-section-two-image"
-            src="https://webhus.io/w3challenge/illustration-2.svg"
-            alt="section two image"
-          />
+        <!-- end svg -->
+      </section>
+
+      <section class="section-container section-two">
+        <ul class="section-two-container">
+          <li class="section-two-item-1">
+            <h2 class="section-two-title">Stay productive, wherever you are</h2>
+          </li>
+          <li class="section-two-p">
+            <p>
+              Never let location be an issue when accessing your files. Fylo has
+              you covered for all of your file storage needs.
+            </p>
+          </li>
+          <li class="section-two-p">
+            <p>
+              Securely share files and folders with friends, family and
+              colleagues for live collaboration. No email attachments required!
+            </p>
+          </li>
+
+          <li>
+            <div class="section-two-button ">
+              <a href="#" class="section-two-link border">
+                See how Fylo works</a
+              >
+              <figure class="icon-arrow border">
+                <img
+                  src="https://webhus.io/_fylo//icon-arrow.svg"
+                  alt="arrow"
+                />
+              </figure>
+            </div>
+          </li>
+
+          <li>
+            <div class="c-testimonial">
+              <figure class="c-testimonial-quote">
+                <img
+                  src="https://webhus.io/_fylo//icon-quotes.svg"
+                  alt="quote"
+                />
+              </figure>
+              <p>
+                Fylo has improved our team productivity by an order of
+                magnitude. Since making the switch our team has become a
+                well-oiled collaboration machine.
+              </p>
+              <div class="c-testimonial-card">
+                <img
+                  src="https://webhus.io/_fylo//avatar-testimonial.jpg"
+                  class="c-testimonial-avatar"
+                  alt="Kyle Burton"
+                />
+                <p class="c-testimonial-card-name">Kyle Burton</p>
+                <p class="c-testimonial-card-title">Founder & CEO, Huddle</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <div class="section-two-item-2">
+          <figure class="c-section-two-image">
+            <img
+              src="https://webhus.io/_fylo//illustration-2.svg"
+              alt="section two image"
+            />
+          </figure>
         </div>
       </section>
-      <section class="l-section section-three">
+      <section class="section-container section-three">
         <div>
           <h2 class="section-three-title">Get early access today</h2>
           <p class="section-three-body">
@@ -133,26 +153,22 @@
       </section>
       <footer>
         <div>
-          <img
-            src="https://webhus.io/w3challenge/logo.svg"
-            alt="Logo"
-            class="footer-logo"
-          />
+          <figure class="footer-logo">
+            <img src="https://webhus.io/_fylo//logo.svg" alt="Logo" />
+          </figure>
         </div>
         <ul class="footer-nav">
           <li class="footer-nav-item-1">
-            <img
-              src="https://webhus.io/w3challenge/icon-phone.svg"
-              alt="phone"
-              class="footer-icon"
-            />Phone: +1-543-123-4567
+            <figure class="footer-icon">
+              <img src="https://webhus.io/_fylo//icon-phone.svg" alt="phone" />
+            </figure>
+            Phone:+1-543-123-4567
           </li>
           <li class="footer-nav-item-2">
-            <img
-              src="https://webhus.io/w3challenge/icon-email.svg"
-              alt="email"
-              class="footer-icon"
-            /><a class="footer-link" href="#">example@fylo.com</a>
+            <figure class="footer-icon">
+              <img src="https://webhus.io/_fylo//icon-email.svg" alt="email" />
+            </figure>
+            <a class="footer-link" href="#">example@fylo.com</a>
           </li>
           <li class="footer-nav-item-3">
             <a class="footer-link" href="#">About Us</a>
@@ -176,21 +192,26 @@
             <a class="footer-link" href="#">Privacy</a>
           </li>
           <li class="footer-nav-item-10">
-            <img
-              class="social"
-              src="https://webhus.io/w3challenge/facebook-logo-button.svg"
-              alt=""
-            />
-            <img
-              class="social"
-              src="https://webhus.io/w3challenge/instagram-logo.svg"
-              alt=""
-            />
-            <img
-              class="social"
-              src="https://webhus.io/w3challenge/twitter-logo-button.svg"
-              alt=""
-            />
+            <figure class="social">
+              <img
+                src="https://webhus.io/_fylo//facebook-logo-button.svg"
+                alt=""
+              />
+            </figure>
+            <figure class="social">
+              <img
+                class="social"
+                src="https://webhus.io/_fylo//instagram-logo.svg"
+                alt=""
+              />
+            </figure>
+            <figure class="social">
+              <img
+                class="social"
+                src="https://webhus.io/_fylo//twitter-logo-button.svg"
+                alt=""
+              />
+            </figure>
           </li>
         </ul>
       </footer>

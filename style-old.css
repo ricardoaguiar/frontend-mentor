@@ -35,15 +35,17 @@ desktop: 1440
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 100%;
+  /* background-image: url(design/desktop-design.jpg); */
   /* background-image: url(design/mobile-design.png); */
   background-position: top;
   background-repeat: no-repeat;
+  opacity: 1;
 }
 
 header {
   padding-top: 4em;
   padding-left: 5em;
-  padding-bottom: 4.995em;
+  padding-bottom: 5rem;
 }
 h1,
 h2 {
@@ -58,8 +60,7 @@ a {
 ul {
   list-style: none;
 }
-/* IE fix */
-img:not(.png) {
+img {
   width: 100%;
   display: inline-block;
 }
@@ -73,65 +74,20 @@ footer {
   max-width: 1440px;
   margin: 0 auto;
 }
-.svg-container {
-  position: relative;
-  height: 0;
-  padding: 0;
+.container-nav {
+  display: flex;
+  justify-content: space-between;
 }
-.figure-svg-container {
-  width: 100%;
-  height: 100%;
-  margin: 0 auto;
-  height: 0;
-  padding: 0;
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: absolute;
-}
-.header-logo-svg {
-  width: 100%;
-  margin: 0 auto;
+.c-logo {
+  margin-right: 2em;
 }
 .nav-list {
   display: flex;
 }
 .nav-list__item {
-  margin-right: 4.1em;
-  padding: 0.8em 0;
+  margin-right: 4.2em;
+  padding: 1em 0;
 }
-.section-container {
-  display: flex;
-  flex-direction: row;
-  padding-bottom: 5em;
-}
-.section_one {
-  padding-bottom: 13.3em;
-}
-
-.section_one_item_2 {
-  /* position: relative;
-  height: 0; */
-  width: 90%;
-  /* padding: 0; */
-}
-.section-one-svg {
-  /* width: 100%;
-  height: 100%;
-  margin: 0 auto;
-  height: 0;
-  padding: 0; */
-  padding-bottom: calc(100% * 839.141 / 1132.93);
-  background-image: url(images/illustration-1.svg);
-  /* background-size: cover;
-  background-repeat: no-repeat;
-  position: absolute; */
-}
-
-.container-nav {
-  display: flex;
-  justify-content: space-between;
-}
-
 /* base class for blue btn */
 .btn {
   height: 3em;
@@ -145,7 +101,18 @@ footer {
   height: 45px;
 }
 /* flex display for sections */
-
+.l-section {
+  display: flex;
+  flex-flow: row wrap;
+}
+.l-section__item {
+}
+.section-left-item {
+  flex: 2 1;
+}
+.section-right-item {
+  flex: 1 2 auto;
+}
 /* section 1 */
 .section-one-title {
   margin: 2em 0 0 2em;
@@ -158,7 +125,6 @@ footer {
 }
 .section-one-form {
   display: flex;
-  flex-flow: row wrap;
   margin-left: 5em;
   margin-top: 26px;
   background-color: rgba(240, 248, 255, 0.363);
@@ -177,56 +143,53 @@ footer {
   border-radius: 0.3em;
   color: rgba(0, 0, 0, 0.4);
 }
+.c-section-one-image {
+  width: 89%;
+  margin-bottom: 10.2rem;
+}
 
 /*  section two */
 .section-two {
-  background-image: url(images/bg-curve-desktop.svg);
+  color: black;
+  background-image: url(images/bg-curve-desktop.png);
   background-position: top;
   background-repeat: no-repeat;
-  padding-top: 11em;
-  padding-left: 5em;
-  color: black;
+  padding-top: 7em;
+}
+.section-two-bg-color {
   background-color: #f9f8fe;
 }
-.section-two-container {
-  display: flex;
-  flex-direction: column;
-  flex: 1;
+.section-two_left {
+  padding-top: 4.2em;
+  padding-left: 4.9em;
 }
-.section-two-item-1,
-.section-two-item-2 {
-  flex: 1;
-}
-
 .section-two-title {
   line-height: 1;
   margin-bottom: 1em;
   font-size: 2.5rem;
   letter-spacing: 0.01rem;
 }
-.section-two-p {
+.section-two-body {
   max-width: 80%;
-  margin-bottom: 1.2em;
 }
-.section-two-buttom {
-  flex: 1;
+.section-two-body__padding {
+  padding-top: 1.1em;
+  padding-bottom: 1em;
 }
-
 /* see how fylo works */
-.section-two-link {
-  margin: 0;
-}
 .section-two-button {
-  display: grid;
-  grid-template-columns: 150px 30px;
-  grid-template-rows: 28px;
+  background-color: transparent;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 1px solid #36a48b;
+  font-size: 16px;
+  padding-bottom: 0.25em;
 }
 .icon-arrow {
-  width: 30px;
-  display: inline-block;
-}
-.border {
-  border-bottom: 1px solid #36a48b;
+  width: 25px;
+  margin-left: 0.5em;
+  margin-bottom: -0.5em;
 }
 
 /* textimonial box */
@@ -234,7 +197,7 @@ footer {
   max-width: 360px;
   height: 215px;
   margin-top: 3.315em;
-  margin-bottom: 2em;
+  margin-bottom: 8em;
   padding-top: 1.2em;
   padding-left: 2.5em;
   padding-right: 1.6em;
@@ -247,18 +210,18 @@ footer {
 }
 .c-testimonial-quote {
   width: 14px;
-  padding-bottom: 0.6em;
+  padding-bottom: 1em;
 }
 .c-testimonial-card {
   display: grid;
   grid-template-columns: 40px 1fr;
   grid-template-rows: 30px;
-  grid-column-gap: 8px;
 }
 .c-testimonial-avatar {
-  margin-top: 0.455em;
-  margin-right: 0.5em;
+  margin-top: 0.85em;
+  width: 32px;
   border-radius: 100%;
+  display: inline-block;
   grid-row: 1 / span 2;
 }
 .c-testimonial-card-name {
@@ -382,80 +345,21 @@ footer {
 }
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
   header {
-    padding-top: 1em;
-    padding-left: 3em;
-    padding-bottom: 4.995em;
-  }
-  .header-logo-svg {
-    width: 50%;
-    padding-top: 1em;
-    margin-left: 0.4em;
-    margin-right: -0.7em;
-  }
-  .container-nav {
-    justify-content: flex-start;
-    margin-top: -0.4em;
-    margin-left: -0.7em;
-  }
-  .nav-list {
+    display: flex;
+    flex-flow: row;
+    padding: 0;
+    margin: 0;
     font-size: 0.8rem;
   }
+  .nav-list {
+    margin-left: auto;
+    flex: 1 auto;
+  }
   .nav-list__item {
-    margin: 0.5em;
-    padding-right: 0.5em;
+    padding: 0;
+    flex: 1 auto;
   }
-  body {
-    background-image: url(design/mobile-design.png);
-    background-position: top;
-    background-repeat: no-repeat;
-    opacity: 0.7;
-  }
-  .section-container {
-    flex-direction: column;
-  }
-  .section_one_item_1 {
-    order: 1;
-    margin: 0 auto;
-    text-align: center;
-    align-items: center;
-    justify-items: center;
-    justify-content: center;
-    align-content: center;
-  }
-  .section_one_item_2 {
-    order: -1;
-    margin-top: 0;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 13.8em;
-    width: 75%;
-  }
-  .section-one-title {
-    font-size: 1.5rem;
-    max-width: 80%;
-    margin-bottom: 1em;
-  }
-  .section-one-body {
-    font-size: 0.85rem;
-    margin-left: auto;
-    margin-right: auto;
-    line-height: 1.5;
-    margin-bottom: 2.5em;
-  }
-  .section-one-form {
-    flex-direction: column;
-    margin: 0 auto;
-    justify-content: center;
-    align-content: center;
-  }
-  .section-one-input {
-    width: 310px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 0.8rem;
-  }
-  .btn {
-    margin: 0 auto;
-    width: 310px;
-  }
+}
+object {
+  width: 100%;
 }
