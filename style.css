@@ -35,8 +35,7 @@ desktop: 1440
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 100%;
-  /* background-image: url(design/mobile-design.png); */
-  background-image: url(design/desktop-design.jpg);
+  /* background-image: url(design/desktop-design.jpg); */
   background-position: top;
   background-repeat: no-repeat;
   opacity: 0.5;
@@ -115,7 +114,7 @@ footer {
 }
 .section-one-svg {
   padding-bottom: calc(100% * 839.141 / 1132.93);
-  background-image: url(images/illustration-1.svg);
+  background-image: url(https://webhus.io/_fylo/illustration-1.svg);
 }
 
 .container-nav {
