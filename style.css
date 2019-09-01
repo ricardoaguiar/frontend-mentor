@@ -13,9 +13,16 @@
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 100%;
+<<<<<<< HEAD
+  /* background-image: url(design/desktop-design.jpg); */
+  background-position: top;
+  background-repeat: no-repeat;
+  opacity: 0.5;
+=======
   /* background-image: url(design/mobile-design.png); */
   background-position: top;
   background-repeat: no-repeat;
+>>>>>>> 9fa2b56c23e74ff2121987f0d25d903ac70db215
 }
 
 header {
@@ -81,6 +88,25 @@ footer {
   display: flex;
   flex-direction: row;
   padding-bottom: 5em;
+<<<<<<< HEAD
+}
+.section_one {
+  padding-bottom: 13.3em;
+  flex: 1 74%;
+}
+.section_one_item_2 {
+  width: 75%;
+}
+.section-one-svg {
+  padding-bottom: calc(100% * 839.141 / 1132.93);
+  background-image: url(https://webhus.io/_fylo/illustration-1.svg);
+}
+
+.container-nav {
+  display: flex;
+  justify-content: space-between;
+}
+=======
 }
 .section_one {
   padding-bottom: 13.3em;
@@ -109,6 +135,7 @@ footer {
   display: flex;
   justify-content: space-between;
 }
+>>>>>>> 9fa2b56c23e74ff2121987f0d25d903ac70db215
 
 /* base class for blue btn */
 .btn {
@@ -132,7 +159,7 @@ footer {
 .section-one-body {
   margin: 0.9em 0 0 5em;
   letter-spacing: 1px;
-  max-width: 80%;
+  max-width: 85%;
 }
 .section-one-form {
   display: flex;
@@ -170,11 +197,19 @@ footer {
   display: flex;
   flex-direction: column;
   flex: 1;
+<<<<<<< HEAD
 }
 .section-two-item-1,
 .section-two-item-2 {
   flex: 1;
 }
+=======
+}
+.section-two-item-1,
+.section-two-item-2 {
+  flex: 1;
+}
+>>>>>>> 9fa2b56c23e74ff2121987f0d25d903ac70db215
 
 .section-two-title {
   line-height: 1;
@@ -251,7 +286,7 @@ footer {
 /* section two illustration */
 
 .c-section-two-image {
-  margin-top: 5.5em;
+  margin-top: 1.5em;
   margin-left: 3.7em;
   width: 80%;
 }
