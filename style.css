@@ -88,7 +88,7 @@ width: 75%;
 }
 .section-one-svg {
 padding-bottom: calc(100% * 839.141 / 1132.93);
-background-image: url(https://webhus.io/_fylo/illustration-1.svg);
+background-image: url(https://ricardoaguiar.com/_fylo/illustration-1.svg);
 }
 
 .container-nav {
@@ -144,7 +144,7 @@ color: rgba(0, 0, 0, 0.4);
 
 /*  section two */
 .section-two {
-background-image: url(https://webhus.io/_fylo/bg-curve-desktop.svg);
+background-image: url(https://ricardoaguiar.com/_fylo/bg-curve-desktop.svg);
 background-position: top;
 background-repeat: no-repeat;
 padding-top: 11em;
@@ -420,7 +420,7 @@ margin: 0 auto;
 width: 310px;
 }
 .section-two {
-background-image: url(images/bg-curve-mobile.svg);
+background-image: url(https://ricardoaguiar.com/_fylo/bg-curve-mobile.svg);
 padding: 5em 0 2em 0;
 text-align: center
 }
