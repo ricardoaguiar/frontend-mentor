@@ -1,27 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans|Raleway:400,700&display=swap");
 
-/* 
-font-family: 'Raleway', sans-serif; / headings, cal to actions, header nav
-font-family: 'Open Sans', sans-serif; / body
-
-color scheme:
-Primary
-#05041f / very dark blue
-#585870 / desaturated blue
-
-Accent
-#0a2f94 / bright blue
-#3c6e65 / moderate cyan
-
-Neutral
-#3e3efa / light grayish blue
-#bfbfbf / light gray
-
-mobile: 375px
-desktop: 1440
-
-  */
-
 *,
 *:before,
 *:after {
